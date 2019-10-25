@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "https://github.com/MiguelMelo/react-boilerplate",
   "author": "Carlos Miguel",
-  "license": "Avalon"
+  "license": "Avalon",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
 }
