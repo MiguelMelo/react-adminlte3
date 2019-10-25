@@ -18,6 +18,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development",
     "build": "webpack --mode production"
   }
 }
