@@ -1,0 +1,9 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "description": "It's a React + Webpack + Babel boilerplate to keep time on setup a React App.",
+  "main": "index.js",
+  "repository": "https://github.com/MiguelMelo/react-boilerplate",
+  "author": "Carlos Miguel",
+  "license": "Avalon"
+}
