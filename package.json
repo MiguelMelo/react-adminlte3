@@ -7,6 +7,7 @@
   "author": "Carlos Miguel",
   "license": "Avalon",
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
@@ -37,7 +38,8 @@
     "webpack-visualizer-plugin": "^0.1.11"
   },
   "scripts": {
-    "start": "webpack-dev-server --open --hot --mode development",
-    "build": "webpack --mode production"
+    "start": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --env.PLATFORM=local --env.VERSION=stag",
+    "prebuild": "webpack --mode production --config config/webpack.prod.config.js --env.PLATFORM=production --env.VERSION=stag --progress",
+    "build": "node server"
   }
 }
